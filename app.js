@@ -26,3 +26,23 @@ app.listen(appEnv.port, '0.0.0.0', function() {
   // print a message when the server starts listening
   console.log("server starting on " + appEnv.url);
 });
+
+// 写真のサンプルデータ
+var photoList = [
+    {
+        id: "001",
+        name: "photo001.jpg",
+        type: "jpg",
+        dataUrl: "http://localhost:3000/data/photo001.jpg"
+    },{
+        id: "002",
+        name: "photo002.jpg",
+        type: "jpg",
+        dataUrl: "http://localhost:3000/data/photo002.jpg"
+    }
+]
+
+// 写真リストを取得するAPI
+app.get("/api/photo/list", function(req, res, next){
+    res.json(photoList);
+});
