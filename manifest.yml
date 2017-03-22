@@ -6,3 +6,6 @@ applications:
   name: intwk-NodeJsTestOnSouthSpace
   host: intwk-NodeJsTestOnSouthSpace
   disk_quota: 1024M
+  services:
+  - Conversation-firstService
+  
