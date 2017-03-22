@@ -4,6 +4,7 @@
 // node.js starter application for Bluemix
 //------------------------------------------------------------------------------
 
+/*
 // このアプリはWEBサーバーに express を利用します。
 // くわしくはこちら: http://expressjs.com
 var express = require('express');
@@ -26,7 +27,7 @@ app.listen(appEnv.port, '0.0.0.0', function() {
   // print a message when the server starts listening
   console.log("server starting on " + appEnv.url);
 });
-
+*/
 
 
 
