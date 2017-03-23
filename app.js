@@ -10,7 +10,7 @@ var express = require('express');
 
 //
 //var ConversationV1 = require('watson-developer-cloud/conversation/v1');
-//var watson = require('watson-developer-cloud');
+var watson = require('watson-developer-cloud');
 
 // cfenv は Cloud Foundry 環境へのアクセスを提供します。
 // くわしくはこちら: https://www.npmjs.com/package/cfenv
